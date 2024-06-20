@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.filters-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+.filters-list-child{
+width:30%;
+}
+
+.job-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.job-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2; /* Change this to your desired color */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+.job-card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.job-card-company {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.job-card-location {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.job-card-salary {
+  margin-bottom: 15px;
+}
+.job-card-description {
+  margin-bottom: 15px;
+}
+
+.btn-cyan{
+ width: 100%;
+ padding: 16px 16px; 
+ color: black;
+ background-color: #41df9f;
+ border-radius: 10px;
+ border: none;
+
+}
+.btn-blue{
+  width: 100%;
+  padding: 16px 16px; 
+  color: white;
+  background-color: #493696;
+  border-radius: 10px;
+ border: none;
+
+ 
+}
