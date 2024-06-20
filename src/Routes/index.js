@@ -1,6 +1,6 @@
 import React from 'react'
 import { Redirect, Route, Switch, withRouter } from "react-router-dom";
-import JobComponent from '../Components/JobPage';
+import SplitWiseHome from '../Components/SplitWiseComponents/index';
 
 function Routes() {
   return (
@@ -9,7 +9,7 @@ function Routes() {
       <Route
             exact
             path="/"
-            render={()=><JobComponent/>}
+            render={()=><SplitWiseHome/>}
           />
           <Route path="*" render={() => <div>PAGE NOT FOUND</div>} />
       </Switch>
